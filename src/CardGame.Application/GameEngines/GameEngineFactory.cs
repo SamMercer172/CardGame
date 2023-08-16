@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardGame.Domain.Entities.Player
+namespace CardGame.Application.GameEngines
 {
-    public record Player(int Id, string Name);
+    internal class GameEngineFactory
+    {
+    }
 }
