@@ -9,11 +9,8 @@ namespace CardGame.Application.GameEngines.Poker
     public class PokerEngine : IGameEngine
     {
         public string GameID { get; }
-
         public GameTypes GameType => GameTypes.Poker;
-
         private readonly IShuffler _shuffler;
-
         private PokerGameState _gameState;
 
         public PokerEngine(string gameID, IShuffler shuffler)
